@@ -1,0 +1,19 @@
+---
+:privileges:
+  :manage_account: 0
+  :manage_users: 1
+  :manage_feedbacks: 2
+  :manage_appointments: 3
+  :manage_clients: 4
+  :manage_roles: 5
+  :manage_agents: 6
+  :manage_regions: 7
+  :manage_groups: 8
+  :carer_view: 9
+  :sample_privilege_9: 10
+  :sample_privilege_10: 11
+  :sample_privilege_11: 12
+  :sample_privilege_12: 13
+  :sample_privilege_13: 14
+  :sample_privilege_14: 15
+:max_value: 1

@@ -1,0 +1,1 @@
+json.partial! 'common/item', locals: { item: @item }

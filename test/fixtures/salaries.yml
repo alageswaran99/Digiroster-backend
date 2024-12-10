@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  salary_id: MyString
+  carer_id: MyString
+  group_id: MyString
+  region_id: MyString
+  time_period: MyString
+  customized_checkbox: false
+  account_id: 1
+
+two:
+  salary_id: MyString
+  carer_id: MyString
+  group_id: MyString
+  region_id: MyString
+  time_period: MyString
+  customized_checkbox: false
+  account_id: 1

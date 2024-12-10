@@ -1,0 +1,19 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  client_id: 
+  agent_id: 
+  account_id: 
+  other_info: 
+  notes: MyText
+  start_time: 2021-01-24 22:33:10
+  end_time: 2021-01-24 22:33:10
+
+two:
+  client_id: 
+  agent_id: 
+  account_id: 
+  other_info: 
+  notes: MyText
+  start_time: 2021-01-24 22:33:10
+  end_time: 2021-01-24 22:33:10

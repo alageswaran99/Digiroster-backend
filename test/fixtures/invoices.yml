@@ -1,0 +1,29 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  invoiceId: MyString
+  clientId: MyString
+  groupId: MyString
+  regionId: MyString
+  timePeriod: MyString
+  durationtype: 1
+  customizedCheckbox: 1
+  ratePerMinute: 9.99
+  invoiceDate: 2024-12-03 10:42:02
+  account_id: 1
+  grand_totalamount: 9.99
+  grand_total_minutes: 9.99
+
+two:
+  invoiceId: MyString
+  clientId: MyString
+  groupId: MyString
+  regionId: MyString
+  timePeriod: MyString
+  durationtype: 1
+  customizedCheckbox: 1
+  ratePerMinute: 9.99
+  invoiceDate: 2024-12-03 10:42:02
+  account_id: 1
+  grand_totalamount: 9.99
+  grand_total_minutes: 9.99

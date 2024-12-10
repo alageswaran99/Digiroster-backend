@@ -1,0 +1,1 @@
+$google_api_key = ENV['google_api_key']
