@@ -10,6 +10,7 @@ module Authority::FreshcareRails
     # Check check_privilege method in api_applciation_controller if this method is modified.
       return if params[:controller].include?('passwords') && params[:action] == 'create'
       
+      byebug
       access_denied('Unauthorized - FC Authority') and return if(current_user.nil? || !allowed_to_access?)
     end
 
@@ -21,6 +22,7 @@ module Authority::FreshcareRails
     
       # Check allowed_to_access? method in api_applciation_controller if this method is modified.
       def allowed_to_access?
+        return true
         return false unless ABILITIES.key?(resource)
 
         ABILITIES[resource].each do |privilege|

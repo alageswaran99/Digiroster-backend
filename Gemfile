@@ -10,6 +10,9 @@ gem 'pg', "~> 1.1"
 # Use Puma as the app server
 gem 'puma', "6.2.0"
 
+gem 'mutex_m'
+
+
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.11.5'
 gem 'draper', '~> 4.0.1'

@@ -10,6 +10,8 @@ Authority::Authorization::PrivilegeList.build do
     resource :"role"
     resource :"region"
     resource :"feedback"
+    resource :"salaries"
+    resource :"invoices"
     resource :"holiday", only: [:index, :show]
     resource :"account", only: [:dashboard]
   end
@@ -19,6 +21,8 @@ Authority::Authorization::PrivilegeList.build do
     resource :"appointment", :only => [:carer_appointments, :update_progress, :close_appointment]
     resource :"agent", :only => [:change_password]
     resource :"holiday", only: [:index, :show, :create]
+    resource :"salaries"
+    resource :"invoices"
   end
 
   manage_users do

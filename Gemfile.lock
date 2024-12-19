@@ -257,6 +257,7 @@ GEM
     mocha (2.7.0)
       ruby2_keywords (>= 0.0.5)
     msgpack (1.7.5)
+    mutex_m (0.2.0)
     net-http (0.6.0)
       uri
     net-imap (0.5.1)
@@ -475,6 +476,7 @@ DEPENDENCIES
   json_expressions
   listen (>= 3.0.5, < 3.2)
   mocha
+  mutex_m
   newrelic-infinite_tracing
   newrelic_rpm
   pagy (~> 6.0.4)

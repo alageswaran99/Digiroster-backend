@@ -1,7 +1,7 @@
 class User < ApplicationRecord
   include User::JwtAuthUtil
   include User::Constants, User::PrivilegesUtil
-  include Authority::FreshcareRails::ModelHelpers
+  # include Authority::FreshcareRails::ModelHelpers
   include Devise::JWT::RevocationStrategies::Allowlist
 
   store_accessor :other_info, :title, :gender, :landline, :address, :postcode, :dob, :middle_name, :role_ids, :map_data
