@@ -169,7 +169,7 @@ ActiveRecord::Schema[7.0].define(version: 2024_12_03_144414) do
     t.string "clientId"
     t.string "groupId"
     t.string "regionId"
-    t.string "timePeriod"
+    t.string "timePeriod", null: false 
     t.integer "durationtype"
     t.integer "customizedCheckbox"
     t.decimal "ratePerMinute"

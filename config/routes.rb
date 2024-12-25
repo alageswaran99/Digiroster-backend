@@ -48,15 +48,18 @@ Rails.application.routes.draw do
   resources :regions
   resources :feedbacks
 
-  resources :invoices do  
+  resources :invoices, only: [:create, :index, :update, :destroy] do
     collection do
-      post :create, to: 'invoices#create'
-      get :index, to: 'invoices#index'
+      post :create, to: 'generated_invoices#create'  # Ensure this points to the correct controller action
+      get :index, to: 'generated_invoices#index'
     end
     member do
-      put :update, to: 'invoices#update'
+      put :update, to: 'generated_invoices#update'
+      delete :destroy, to: 'generated_invoices#destroy'
+      post :cancel_invoice, to: 'generated_invoices#cancel_invoice'
     end
   end
+  
 
   resources :salaries, only: [:create, :update, :destroy, :index] do
     collection do

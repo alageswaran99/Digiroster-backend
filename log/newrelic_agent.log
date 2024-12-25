@@ -4295,3 +4295,1336 @@
 [2024-12-18 20:30:37 +0530 a-To-be-filled-by-O-E-M (21151)] ERROR : NoMethodError: undefined method `size' for nil
 [2024-12-18 20:30:37 +0530 a-To-be-filled-by-O-E-M (21151)] INFO : Will re-attempt in 300 seconds
 [2024-12-18 20:31:07 +0530 a-To-be-filled-by-O-E-M (21151)] INFO : Starting agent shutdown
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Environment: development
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : No known dispatcher detected.
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Application: freshcare-api-dev
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 10:13:43 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Finished instrumentation
+[2024-12-20 10:13:44 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 10:13:44 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 10:13:44 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : high_security = false
+[2024-12-20 10:13:44 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : security.agent.enabled = false
+[2024-12-20 11:21:12 +0530 a-To-be-filled-by-O-E-M (4776)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Environment: development
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : No known dispatcher detected.
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Application: freshcare-api-dev
+[2024-12-20 11:23:36 +0530 a-To-be-filled-by-O-E-M (20044)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Finished instrumentation
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : high_security = false
+[2024-12-20 11:23:37 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : security.agent.enabled = false
+[2024-12-20 11:35:19 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 11:35:21 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 11:35:21 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 11:35:21 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 11:35:38 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 11:35:38 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 11:35:38 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 11:36:10 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 11:36:10 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 11:36:10 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 11:37:12 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 11:37:12 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 11:37:12 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 11:39:14 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 11:39:14 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 11:39:14 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 14:58:49 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 14:58:49 +0530 a-To-be-filled-by-O-E-M (20044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 14:58:49 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:02:49 +0530 a-To-be-filled-by-O-E-M (20044)] INFO : Starting agent shutdown
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Environment: development
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : No known dispatcher detected.
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Application: freshcare-api-dev
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 15:02:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Finished instrumentation
+[2024-12-20 15:02:58 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 15:02:58 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 15:02:58 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : high_security = false
+[2024-12-20 15:02:58 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : security.agent.enabled = false
+[2024-12-20 15:05:10 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 15:05:38 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:05:38 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:05:38 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 15:23:00 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:23:01 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:23:01 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 15:23:34 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:23:34 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:23:34 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 15:24:36 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:24:36 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:24:36 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 15:26:38 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:26:38 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:26:38 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:31:40 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:31:40 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:31:40 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:36:42 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:36:42 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:36:42 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:41:45 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:41:45 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:41:45 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:46:47 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:46:47 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:46:47 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:51:49 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 15:51:49 +0530 a-To-be-filled-by-O-E-M (50676)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 15:51:49 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 15:53:57 +0530 a-To-be-filled-by-O-E-M (50676)] INFO : Starting agent shutdown
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Environment: development
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : No known dispatcher detected.
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Application: freshcare-api-dev
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Finished instrumentation
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : high_security = false
+[2024-12-20 15:54:05 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : security.agent.enabled = false
+[2024-12-20 15:56:27 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 16:00:21 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:00:21 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:00:21 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 16:00:38 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:00:38 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:00:38 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 16:01:10 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:01:10 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:01:10 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 16:02:12 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:02:12 +0530 a-To-be-filled-by-O-E-M (56458)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:02:12 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 16:04:08 +0530 a-To-be-filled-by-O-E-M (56458)] INFO : Starting agent shutdown
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Environment: development
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : No known dispatcher detected.
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Application: freshcare-api-dev
+[2024-12-20 16:04:15 +0530 a-To-be-filled-by-O-E-M (57255)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Finished instrumentation
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : high_security = false
+[2024-12-20 16:04:16 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : security.agent.enabled = false
+[2024-12-20 16:20:21 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 16:20:23 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:20:23 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:20:23 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 16:21:01 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:21:01 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:21:01 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 16:21:33 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:21:33 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:21:33 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 16:22:35 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:22:35 +0530 a-To-be-filled-by-O-E-M (57255)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:22:35 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 16:23:51 +0530 a-To-be-filled-by-O-E-M (57255)] INFO : Starting agent shutdown
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Environment: development
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : No known dispatcher detected.
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Application: freshcare-api-dev
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Finished instrumentation
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : high_security = false
+[2024-12-20 16:25:10 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : security.agent.enabled = false
+[2024-12-20 16:25:48 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 16:25:57 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:25:57 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:25:57 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 16:26:14 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:26:14 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:26:14 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 16:26:46 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:26:46 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:26:46 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 16:27:48 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:27:48 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:27:48 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 16:29:51 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:29:51 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:29:51 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 16:34:53 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:34:53 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:34:53 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 16:39:55 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:39:55 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:39:55 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 16:44:57 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:44:57 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:44:57 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 16:49:59 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:49:59 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:49:59 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 16:55:01 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 16:55:01 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 16:55:01 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 17:00:03 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 17:00:03 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 17:00:03 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 17:05:05 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 17:05:05 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 17:05:05 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 17:10:07 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 17:10:07 +0530 a-To-be-filled-by-O-E-M (59475)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 17:10:07 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 17:12:59 +0530 a-To-be-filled-by-O-E-M (59475)] INFO : Starting agent shutdown
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Environment: development
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : No known dispatcher detected.
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Application: freshcare-api-dev
+[2024-12-20 17:13:12 +0530 a-To-be-filled-by-O-E-M (63044)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Finished instrumentation
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : high_security = false
+[2024-12-20 17:13:13 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : security.agent.enabled = false
+[2024-12-20 18:35:33 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 18:35:35 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:35:35 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:35:35 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 18:35:52 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:35:52 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:35:52 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 18:36:24 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:36:24 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:36:24 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 18:37:26 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:37:26 +0530 a-To-be-filled-by-O-E-M (63044)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:37:26 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 18:37:29 +0530 a-To-be-filled-by-O-E-M (63044)] INFO : Starting agent shutdown
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Environment: development
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : No known dispatcher detected.
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Application: freshcare-api-dev
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 18:37:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Finished instrumentation
+[2024-12-20 18:37:37 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 18:37:37 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 18:37:37 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : high_security = false
+[2024-12-20 18:37:37 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : security.agent.enabled = false
+[2024-12-20 18:37:40 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 18:37:42 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:37:42 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:37:42 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 18:38:00 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:38:00 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:38:00 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 18:38:32 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:38:32 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:38:32 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 18:39:34 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:39:34 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:39:34 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 18:41:36 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:41:36 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:41:36 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 18:46:38 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:46:38 +0530 a-To-be-filled-by-O-E-M (68773)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:46:38 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 18:49:03 +0530 a-To-be-filled-by-O-E-M (68773)] INFO : Starting agent shutdown
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Environment: development
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : No known dispatcher detected.
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Application: freshcare-api-dev
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Finished instrumentation
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : high_security = false
+[2024-12-20 18:49:10 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : security.agent.enabled = false
+[2024-12-20 18:49:19 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 18:49:21 +0530 a-To-be-filled-by-O-E-M (70369)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:49:21 +0530 a-To-be-filled-by-O-E-M (70369)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:49:21 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 18:49:28 +0530 a-To-be-filled-by-O-E-M (70369)] INFO : Starting agent shutdown
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Environment: development
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : No known dispatcher detected.
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Application: freshcare-api-dev
+[2024-12-20 18:53:01 +0530 a-To-be-filled-by-O-E-M (7482)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Finished instrumentation
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : high_security = false
+[2024-12-20 18:53:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : security.agent.enabled = false
+[2024-12-20 18:54:47 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 18:54:49 +0530 a-To-be-filled-by-O-E-M (7482)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 18:54:49 +0530 a-To-be-filled-by-O-E-M (7482)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 18:54:49 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 18:55:02 +0530 a-To-be-filled-by-O-E-M (7482)] INFO : Starting agent shutdown
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Environment: development
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : No known dispatcher detected.
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Application: freshcare-api-dev
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Finished instrumentation
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : high_security = false
+[2024-12-20 19:09:09 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : security.agent.enabled = false
+[2024-12-20 19:14:06 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 19:14:08 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:14:08 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:14:08 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 19:14:25 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:14:25 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:14:25 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 19:14:57 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:14:57 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:14:57 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 19:15:59 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:15:59 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:15:59 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 19:18:01 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:18:01 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:18:01 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:23:03 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:23:03 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:23:03 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:28:05 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:28:05 +0530 a-To-be-filled-by-O-E-M (9937)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:28:05 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:32:52 +0530 a-To-be-filled-by-O-E-M (9937)] INFO : Starting agent shutdown
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Environment: development
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : No known dispatcher detected.
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Application: freshcare-api-dev
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Finished instrumentation
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : high_security = false
+[2024-12-20 19:32:59 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : security.agent.enabled = false
+[2024-12-20 19:36:20 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 19:36:22 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:36:22 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:36:22 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 19:36:39 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:36:39 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:36:39 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 19:37:11 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:37:11 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:37:11 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 19:38:13 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:38:13 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:38:13 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 19:40:15 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:40:15 +0530 a-To-be-filled-by-O-E-M (12285)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:40:15 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:42:41 +0530 a-To-be-filled-by-O-E-M (12285)] INFO : Starting agent shutdown
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Environment: development
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : No known dispatcher detected.
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Application: freshcare-api-dev
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing ActionMailer instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing base ActiveJob instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing ActiveStorage instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing ActiveSupport instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing Net:HTTP Wrappers
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Installing notification based Action View instrumentation
+[2024-12-20 19:42:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Finished instrumentation
+[2024-12-20 19:42:54 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-20 19:42:54 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-20 19:42:54 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : high_security = false
+[2024-12-20 19:42:54 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : security.agent.enabled = false
+[2024-12-20 19:43:49 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-20 19:43:51 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:43:51 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:43:51 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 15 seconds
+[2024-12-20 19:44:08 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:44:08 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:44:08 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 30 seconds
+[2024-12-20 19:44:40 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:44:40 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:44:40 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 60 seconds
+[2024-12-20 19:45:43 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:45:43 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:45:43 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 120 seconds
+[2024-12-20 19:47:45 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:47:45 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:47:45 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:52:47 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:52:47 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:52:47 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 19:57:49 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 19:57:49 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 19:57:49 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 20:02:51 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 20:02:51 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 20:02:51 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 20:07:53 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-20 20:07:53 +0530 a-To-be-filled-by-O-E-M (13293)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-20 20:07:53 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Will re-attempt in 300 seconds
+[2024-12-20 20:10:09 +0530 a-To-be-filled-by-O-E-M (13293)] INFO : Starting agent shutdown
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Environment: development
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : No known dispatcher detected.
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Application: freshcare-api-dev
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 11:12:38 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Finished instrumentation
+[2024-12-21 11:12:39 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 11:12:39 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 11:12:39 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : high_security = false
+[2024-12-21 11:12:39 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : security.agent.enabled = false
+[2024-12-21 12:29:04 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 12:29:06 +0530 a-To-be-filled-by-O-E-M (4629)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:29:06 +0530 a-To-be-filled-by-O-E-M (4629)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:29:06 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 12:29:23 +0530 a-To-be-filled-by-O-E-M (4629)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:29:23 +0530 a-To-be-filled-by-O-E-M (4629)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:29:23 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 12:29:37 +0530 a-To-be-filled-by-O-E-M (4629)] INFO : Starting agent shutdown
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Environment: development
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : No known dispatcher detected.
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Application: freshcare-api-dev
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Finished instrumentation
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : high_security = false
+[2024-12-21 12:29:46 +0530 a-To-be-filled-by-O-E-M (6890)] INFO : security.agent.enabled = false
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Environment: development
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : No known dispatcher detected.
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Application: freshcare-api-dev
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Finished instrumentation
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : high_security = false
+[2024-12-21 12:42:32 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : security.agent.enabled = false
+[2024-12-21 12:42:40 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 12:42:42 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:42:42 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:42:42 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 12:42:59 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:42:59 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:42:59 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 12:43:31 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:43:31 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:43:31 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 12:44:33 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:44:33 +0530 a-To-be-filled-by-O-E-M (7236)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:44:33 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 12:46:00 +0530 a-To-be-filled-by-O-E-M (7236)] INFO : Starting agent shutdown
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Environment: development
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : No known dispatcher detected.
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Application: freshcare-api-dev
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Finished instrumentation
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : high_security = false
+[2024-12-21 12:46:36 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : security.agent.enabled = false
+[2024-12-21 12:47:31 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 12:47:33 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:47:33 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:47:33 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 12:47:50 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:47:50 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:47:50 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 12:48:22 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:48:22 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:48:22 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 12:49:24 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:49:24 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:49:24 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 12:51:27 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:51:27 +0530 a-To-be-filled-by-O-E-M (7410)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:51:27 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 12:55:06 +0530 a-To-be-filled-by-O-E-M (7410)] INFO : Starting agent shutdown
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Environment: development
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : No known dispatcher detected.
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Application: freshcare-api-dev
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 12:55:42 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Finished instrumentation
+[2024-12-21 12:55:43 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 12:55:43 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 12:55:43 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : high_security = false
+[2024-12-21 12:55:43 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : security.agent.enabled = false
+[2024-12-21 12:55:59 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 12:56:01 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:56:01 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:56:01 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 12:56:19 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:56:19 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:56:19 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 12:56:51 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:56:51 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:56:51 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 12:57:53 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:57:53 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:57:53 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 12:59:55 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 12:59:55 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 12:59:55 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:04:57 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:04:57 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:04:57 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:09:59 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:09:59 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:09:59 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:15:01 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:15:01 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:15:01 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:20:03 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:20:03 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:20:03 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:25:05 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:25:05 +0530 a-To-be-filled-by-O-E-M (7819)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:25:05 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:26:48 +0530 a-To-be-filled-by-O-E-M (7819)] INFO : Starting agent shutdown
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Environment: development
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : No known dispatcher detected.
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Application: freshcare-api-dev
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 13:26:55 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Finished instrumentation
+[2024-12-21 13:26:56 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 13:26:56 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 13:26:56 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : high_security = false
+[2024-12-21 13:26:56 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : security.agent.enabled = false
+[2024-12-21 13:28:34 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 13:28:36 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:28:36 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:28:36 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 13:28:53 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:28:53 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:28:53 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 13:29:25 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:29:25 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:29:25 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 13:30:27 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:30:27 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:30:27 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 13:32:29 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:32:29 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:32:29 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:37:31 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:37:31 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:37:31 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:42:33 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:42:33 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:42:33 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:47:35 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:47:35 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:47:35 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:52:37 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:52:37 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:52:37 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 13:57:39 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 13:57:39 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 13:57:39 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:02:41 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:02:41 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:02:41 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:07:43 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:07:43 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:07:43 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:12:46 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:12:46 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:12:46 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:17:48 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:17:48 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:17:48 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:22:50 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:22:50 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:22:50 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:27:52 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:27:52 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:27:52 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:32:54 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:32:54 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:32:54 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:37:56 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:37:56 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:37:56 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:42:58 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:42:58 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:42:58 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:48:00 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:48:00 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:48:00 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:53:02 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:53:02 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:53:02 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 14:58:04 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 14:58:04 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 14:58:04 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:03:06 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:03:06 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:03:06 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:08:08 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:08:08 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:08:08 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:13:10 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:13:10 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:13:10 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:18:12 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:18:12 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:18:12 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:23:14 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:23:14 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:23:14 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:28:16 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:28:16 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:28:16 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:33:18 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:33:18 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:33:18 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:38:20 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:38:20 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:38:20 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:43:23 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:43:23 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:43:23 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:48:25 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:48:25 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:48:25 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:53:27 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:53:27 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:53:27 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 15:58:29 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 15:58:29 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 15:58:29 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:03:31 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:03:31 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:03:31 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:08:33 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:08:33 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:08:33 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:13:35 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:13:35 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:13:35 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:18:37 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:18:37 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:18:37 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:23:39 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:23:39 +0530 a-To-be-filled-by-O-E-M (8548)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:23:39 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:25:37 +0530 a-To-be-filled-by-O-E-M (8548)] INFO : Starting agent shutdown
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Environment: development
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : No known dispatcher detected.
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Application: freshcare-api-dev
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 16:25:56 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Finished instrumentation
+[2024-12-21 16:25:57 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 16:25:57 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 16:25:57 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : high_security = false
+[2024-12-21 16:25:57 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : security.agent.enabled = false
+[2024-12-21 16:29:20 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 16:29:22 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:29:22 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:29:22 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 16:29:39 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:29:39 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:29:39 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 16:30:12 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:30:12 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:30:12 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 16:31:14 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:31:14 +0530 a-To-be-filled-by-O-E-M (17118)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:31:14 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 16:31:18 +0530 a-To-be-filled-by-O-E-M (17118)] INFO : Starting agent shutdown
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Environment: development
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : No known dispatcher detected.
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Application: freshcare-api-dev
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Finished instrumentation
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : high_security = false
+[2024-12-21 16:31:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : security.agent.enabled = false
+[2024-12-21 16:33:29 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 16:33:31 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:33:31 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:33:31 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 16:33:49 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:33:49 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:33:49 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 16:34:21 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:34:21 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:34:21 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 16:35:23 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:35:23 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:35:23 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 16:37:25 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:37:25 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:37:25 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:42:27 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:42:27 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:42:27 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:47:30 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:47:30 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:47:30 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:52:32 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:52:32 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:52:32 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 16:57:34 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 16:57:34 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 16:57:34 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:02:36 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:02:36 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:02:36 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:07:38 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:07:38 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:07:38 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:12:40 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:12:40 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:12:40 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:17:42 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:17:42 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:17:42 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:22:44 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:22:44 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:22:44 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:27:46 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:27:46 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:27:46 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:32:48 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:32:48 +0530 a-To-be-filled-by-O-E-M (17612)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:32:48 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:34:09 +0530 a-To-be-filled-by-O-E-M (17612)] INFO : Starting agent shutdown
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Environment: development
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : No known dispatcher detected.
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Application: freshcare-api-dev
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Finished instrumentation
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : high_security = false
+[2024-12-21 17:34:39 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : security.agent.enabled = false
+[2024-12-21 17:34:47 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 17:34:49 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:34:49 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:34:49 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 17:35:06 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:35:06 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:35:06 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 17:35:38 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:35:38 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:35:38 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 17:36:40 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:36:40 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:36:40 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 17:38:42 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:38:42 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:38:42 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:43:45 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:43:45 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:43:45 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:48:47 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:48:47 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:48:47 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:53:49 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:53:49 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:53:49 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 17:58:51 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 17:58:51 +0530 a-To-be-filled-by-O-E-M (21828)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 17:58:51 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 18:00:14 +0530 a-To-be-filled-by-O-E-M (21828)] INFO : Starting agent shutdown
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Environment: development
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : No known dispatcher detected.
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Application: freshcare-api-dev
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing ActionMailer instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing base ActiveJob instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing ActiveStorage instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing ActiveSupport instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing Net:HTTP Wrappers
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Installing notification based Action View instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Finished instrumentation
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : high_security = false
+[2024-12-21 18:00:21 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : security.agent.enabled = false
+[2024-12-21 18:00:46 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : NewRelic::Agent::Samplers::DelayedJobSampler not available: No DJ worker present. Skipping DJ queue sampler
+[2024-12-21 18:00:48 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:00:48 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:00:48 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 15 seconds
+[2024-12-21 18:01:06 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:01:06 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:01:06 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 30 seconds
+[2024-12-21 18:01:38 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:01:38 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:01:38 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 60 seconds
+[2024-12-21 18:02:40 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:02:40 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:02:40 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 120 seconds
+[2024-12-21 18:04:42 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:04:42 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:04:42 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 18:09:44 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 18:09:44 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 18:09:44 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 300 seconds
+[2024-12-21 19:11:17 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Starting agent shutdown
+[2024-12-21 19:11:18 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : Error establishing connection with New Relic Service at collector.newrelic.com:443:
+[2024-12-21 19:11:18 +0530 a-To-be-filled-by-O-E-M (23657)] ERROR : NoMethodError: undefined method `size' for nil
+[2024-12-21 19:11:18 +0530 a-To-be-filled-by-O-E-M (23657)] INFO : Will re-attempt in 300 seconds
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Starting the New Relic agent version 9.16.1 in "development" environment.
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : To prevent agent startup add a NEW_RELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Reading configuration from config/newrelic.yml (/home/a/Documents/GitHub/Digiroster-backend)
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Environment: development
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : No known dispatcher detected.
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Application: freshcare-api-dev
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] WARN : No license key found. This often means your newrelic.yml file was not found, or it lacks a section for the running environment, 'development'. You may also want to try linting your newrelic.yml to ensure it is valid YML.
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing ActionMailer instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing base ActiveJob instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing notifications based ActiveJob instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing notifications based Active Record instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing ActiveStorage instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing ActiveSupport instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported ActiveSupportLogger instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported ConcurrentRuby instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported DelayedJob instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported MonitoredFiber instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported Logger instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing Net:HTTP Wrappers
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported NetHTTP instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported Rack instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported URLMap instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing Rails 3+ middleware instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported Redis instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing New Relic supported MonitoredThread instrumentation using Prepend
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing notifications based Action Cable instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing notifications based Action Controller instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Installing notification based Action View instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Finished instrumentation
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : Doing deferred dependency-detection before Rack startup
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : New Relic Security is completely disabled by one of the user-provided configurations: `security.agent.enabled` or `high_security`. Not loading security capabilities.
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : high_security = false
+[2024-12-25 10:07:05 +0530 a-To-be-filled-by-O-E-M (3601)] INFO : security.agent.enabled = false
